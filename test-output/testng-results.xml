@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74442" started-at="2023-01-11T13:32:55Z" finished-at="2023-01-11T13:34:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74442" started-at="2023-01-11T13:32:55Z" finished-at="2023-01-11T13:34:10Z">
+      <class name="TestCases.CheckoutOverviewPageTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="setUp" is-config="true" duration-ms="0" started-at="2023-01-11T19:02:55Z" finished-at="2023-01-11T19:02:55Z">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@1abf713]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Your InputStream was neither an OLE2 stream, nor an OOXML stream or you haven't provide the poi-ooxml*.jar in the classpath/modulepath - FileMagic: OOXML, having providers: [org.apache.poi.hssf.usermodel.HSSFWorkbookFactory@1abf713]
+	at org.apache.poi.ss.usermodel.WorkbookFactory.wp(WorkbookFactory.java:334)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:224)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+	at Utility.ReadData.readExcelFile(ReadData.java:25)
+	at Pages.CheckoutPage.verifyCheckoutData(CheckoutPage.java:28)
+	at TestCases.CheckoutOverviewPageTest.setUp(CheckoutOverviewPageTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyCheckoutLabelTest()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="verifyCheckoutLabelTest" duration-ms="3" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutLabelTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="setUp" is-config="true" duration-ms="0" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyPaymentInfoLabelTest()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="verifyPaymentInfoLabelTest" duration-ms="2" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentInfoLabelTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="setUp" is-config="true" duration-ms="0" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyShippingInfoLabelTest()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="verifyShippingInfoLabelTest" duration-ms="2" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShippingInfoLabelTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="setUp" is-config="true" duration-ms="0" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyTotalAmmountLabelTest()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="verifyTotalAmmountLabelTest" duration-ms="2" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalAmmountLabelTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:TestCases.CheckoutOverviewPageTest@149dace]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2023-01-11T19:04:10Z" finished-at="2023-01-11T19:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.CheckoutOverviewPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
